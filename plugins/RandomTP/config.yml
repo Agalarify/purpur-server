@@ -1,0 +1,30 @@
+# Random Teleport by SergiFerry
+# Spigot: https://www.spigotmc.org/resources/randomtp.20063/
+max-x: 10000
+max-z: 10000
+cooldown-sec: 30
+world: '*'
+command: randomtp
+prevent-regions: false
+sign-line:
+  '1': '&b&lRandomTP'
+  '2': '&a{world}'
+  '3': ''
+  '4': '&eClick to teleport'
+messages:
+  prefix: '&8&l[&b&lRandomTP&8&l]'
+  permissions: '{prefix} &cYou do not have permission to do this.'
+  sign:
+    permissions: '{prefix} &cYou do not have permission to create randomtp signs.'
+    create: '{prefix} &aYou have created a sign for world {world}.'
+    shift: '&7To remove a sign press &cshift + left click'
+  world:
+    no-exist: '&cThis world doesn''t exist.'
+  teleport:
+    already: '&cAlready searching for random location'
+    started: '&aStarted searching random location.'
+    searching: '&eSearching for a random location...'
+    complete: '&bYou''ve been teleported to random location'
+  cooldown:
+    already: '&cYou have to wait {cooldown} seconds before another random teleport.'
+    finish: '&aThe cooldown has finished, now you can teleport.'

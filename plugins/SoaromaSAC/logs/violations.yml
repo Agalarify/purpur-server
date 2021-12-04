@@ -1,0 +1,41 @@
+log-system:
+  enableKickLogger: true
+  enableViolationLogger: true
+  violationLoggerNum: 30
+  enablePlayerViolationLog: true
+  playerViolationLog: 15
+193e311b-b3a8-365a-b052-1c7d64fe06cb:
+  violations: 30
+  warnCount: 0
+  ip: /95.70.222.123:57614
+  name: Caticer
+bce80227-29e8-3600-a697-ee7de1f0df29:
+  violations: 30
+  warnCount: 0
+  ip: /31.223.3.123:39839
+  name: ForkPosix
+0635ce7b-6310-3bd7-af3b-15c61500c6c3:
+  violations: 30
+  warnCount: 0
+  ip: /178.241.95.85:43608
+  name: keriz31
+3d5cec06-bd15-31fa-982f-5dac8c06f1c7:
+  violations: 0
+  warnCount: 0
+ceea51b6-c319-3df9-8d4b-e5f689a671d3:
+  violations: 60
+  warnCount: 0
+  ip: /89.252.140.125:42024
+  name: JustDreamings
+38738eae-9aba-3c44-aba6-f66ddbfba4a2:
+  violations: 0
+  warnCount: 0
+14d2e027-dff3-3447-ae4b-3487f421b585:
+  violations: 0
+  warnCount: 0
+2b71dc7e-09e8-38a0-b1cc-fa90e30f6312:
+  violations: 0
+  warnCount: 0
+c75f31a1-1d96-31b3-941b-e4e3be2a719b:
+  violations: 0
+  warnCount: 0

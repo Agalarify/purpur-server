@@ -1,0 +1,75 @@
+PREFIX: '&e[&2Server&e] '
+HELP_SKIN_CLEAR: Mevcut dış görünümünü temizler.
+HELP_SKIN_CLEAR_OTHER: Başka oyuncunun dış görünümünü temizler.
+HELP_SKIN_UPDATE: dış görünümünü günceller.
+HELP_SKIN_UPDATE_OTHER: Başka oyuncunun dış görünümünü günceller.
+HELP_SKIN_SET: Başka bir oyuncunun dış görünümünü ayarla.
+HELP_SKIN_SET_OTHER: Başka bir oyuncunun dış görünümünü ayarlar.
+HELP_SKIN_SET_OTHER_URL: resim_linki.png ile bir dış görünüm ayarlayın
+HELP_SR_RELOAD: Yapılandırma dosyasını yeniden yükler.
+HELP_SR_STATUS: Eklenti gerekli API hizmetlerini kontrol eder
+HELP_SR_DROP: Oyuncuları veya dış görünümünü verilerini kaldırır.
+HELP_SR_PROPS: Oyuncuların mevcut dış görünümünü özelliklerini görüntüler
+HELP_SR_APPLY_SKIN: Hedef kullanıcı için dış görünümünü yeniden uygulayın.
+HELP_SR_CreateCustom: Create a custom server wide skin
+SYNTAX_DEFAULTCOMMAND: ' <skin/url>'
+SYNTAX_SKINSET: ' <skin>'
+SYNTAX_SKINSET_OTHER: ' <target> <skin/url>'
+SYNTAX_SKINURL: ' <SkinUrl> [steve/slim]'
+SYNTAX_SKINUPDATE_OTHER: ' <target>'
+SYNTAX_SKINCLEAR_OTHER: ' <target>'
+Completions_Skin: <Skin>
+Completions_SkinName: <SkinName>
+Completions_SkinUrl: <SkinUrl>
+PLAYER_HAS_NO_PERMISSION_SKIN: '&4Hata&8: &cBunu ayarlamak için izniniz yok
+    skin.'
+PLAYER_HAS_NO_PERMISSION_URL: '&4Hata&8: &cDış görünümleri ayarlama izniniz yok
+    by URL.'
+SKIN_DISABLED: '&4Hata&8: &cBu dış görünümü bir yönetici tarafından devre dışı bırakıldı.'
+SKINURL_DISALLOWED: '&4Hata&8: &cBu etki alanına yönetici tarafından izin verilmedi.'
+NOT_PREMIUM: '&4Hata&8: &cBu ada sahip premium oyuncu mevcut değil.'
+INVALID_PLAYER: '&4Hata&8: &c%player geçerli bir kullanıcı adı veya URL değil.'
+SKIN_COOLDOWN: '&4Hata&8: &cCildinizi &e%s &csaniye sonra. tekrar değiştirebilirsiniz.'
+SKIN_CHANGE_SUCCESS: '&2Dış görünümün değişti.'
+SKIN_CLEAR_SUCCESS: '&2Dış görünümün Temizlendi.'
+SKIN_CLEAR_ISSUER: '&22Dış görünümü %player için Temizlendi'
+MS_UPDATING_SKIN: '&2Dış görünüm yükleniyor, lütfen bekleyin...(Bu biraz zaman alabilir)'
+SUCCESS_CREATE_SKIN: '&2Dış görünüm %skin Oluşturuldu!'
+SUCCESS_UPDATING_SKIN: '&2Dış görünümün güncellendi.'
+SUCCESS_UPDATING_SKIN_OTHER: '&2Dış görünümü %player için güncellendi'
+ERROR_UPDATING_SKIN: '&4Hata&8: &cGörünümünüz güncellenirken bir Hata oluştu. Lütfen
+    daha sonra tekrar deneyin'
+ERROR_UPDATING_URL: "&4Hata&8: &cÖzel url görünümlerini güncelleyemezsiniz! \n&cRequest again\
+    \ using /skin url"
+ERROR_UPDATING_CUSTOMSKIN: '&4Hata&8: &cÖzel olduğu için görünüm güncellenemez.'
+ERROR_INVALID_URLSKIN: "&4Hata&8: &cInvalid skin url or format, \n&cTry uploading\
+    \ your skin to imgur and right click 'copy image address' \n&cFor guide see: &c&oskinsrestorer.net/skinurl"
+ERROR_MS_FULL: '&4MS Hata&8: Dış görünüm yüklenirken API zaman aşımına uğradı. Lütfen
+    daha sonra tekrar deneyin. (MineSkin)'
+ERROR_MS_GENERIC: '&4MS Hata&8: &c%error%'
+GENERIC_ERROR: '&4Hata&8: &cDış görünüm verileri istenirken bir hata oluştu, lütfen
+    daha sonra tekrar deneyin'
+WAIT_A_MINUTE: '&4Hata&8: &cLütfen Dış görünümü tekrar istemeden önce bir dakika bekleyin.
+    (Rate Limited)'
+ERROR_NO_SKIN: '&4Hata&8: &cBu oyuncunun Dış görünümü yok.'
+SKINSMENU_OPEN: '&2Dış görünümler menüsünü açıldı...'
+SKINSMENU_TITLE_NEW: '&9Dış görünümü Menüsü - Sayfa %page'
+SKINSMENU_NEXT_PAGE: '&a&l»&7 Sonraki Sayfa&a&l »'
+SKINSMENU_PREVIOUS_PAGE: '&e&l«&7 Önceki Sayfa&e&l «'
+SKINSMENU_REMOVE_SKIN: '&c&l[ &7Remove Skin&c&l ]'
+SKINSMENU_SELECT_SKIN: '&2Bu Dış görünümü seçmek için tıklayın'
+ADMIN_SET_SKIN: '&2%player Dış görünümünü ayarladın'
+DATA_DROPPED: '&2Data dropped for %playerOrSkin %targets.'
+STATUS_OK: '&2Mojang API bağlantısı başarılı!'
+ALT_API_FAILED: '&4Hata&8: &cSkin Data API'si aşırı yüklendi, lütfen daha sonra tekrar deneyin!'
+MS_API_FAILED: '&4Hata&8: &cMineSkin API'si aşırı yüklendi, lütfen daha sonra tekrar deneyin!'
+NO_SKIN_DATA: '&4Hata&8: &cDış görünümü verisi alınmadı! Bu oyuncunun skini var mı?'
+RELOAD: '&2Config and Locale has been reloaded!'
+OUTDATED: "&4You are running an outdated version of SkinsRestorer!\n&cPlease update\
+    \ to the latest version on Spigot: \n&ehttps://www.spigotmc.org/resources/skinsrestorer.2124/"
+SR_LINE: '&7&m----------------------------------------'
+CUSTOM_HELP_IF_ENABLED: |4-
+      &2&lSkinsRestorer &7- &f&lv%ver%
+       &2/skin <skinname> &7-&f Dış görünümü değiştirir.
+        &2/skin update &7-&f Dış görünümü günceller.
+        &2/skin clear &7-&f Dış görünümü temizler.

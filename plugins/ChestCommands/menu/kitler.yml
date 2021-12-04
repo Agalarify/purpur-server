@@ -1,0 +1,95 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&1Kitler'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 1
+
+  # OPTIONAL
+  # Set which commands a player can execute to open the menu.
+  commands:
+  - 'kitler'
+
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in icon descriptions.
+  auto-refresh: 5
+
+  # OPTIONAL
+  # This command command will be executed when the menu is opened.
+  # Supports all the icon command types.
+  open-actions:
+  - 'tell: &eKit menüsünü açtın'
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+  open-with-item:
+    material: compass
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ICONS        #
+#+                  +#
+######################
+
+
+kitstarter:
+  MATERIAL: STONE_PICKAXE
+  POSITION-X: 1
+  POSITION-Y: 1
+  NAME: '&eBaşlangıç Kiti'
+  LORE:
+    - 'Bir defa alabileceğin temel aletler'
+  ACTIONS:
+    - 'kit baslangic'
+
+
+kitclaim:
+  MATERIAL: GOLDEN_SHOVEL
+  POSITION-X: 3
+  POSITION-Y: 1
+  NAME: '&eClaim Kiti'
+  LORE:
+    - 'Arazini korumak için Claim atman gerekir'
+    - 'Claim atmak için altın kürek ile'
+    - 'Claimlemek istediğin arazinin'
+    - 'İki köşesine sağ tık yapman yeterli'
+    - 'Ayrıntılı bilgi için Hızlı Başlangıç kitabına göz at'
+  ACTIONS:
+    - 'kit claim'
+
+kityemek:
+  MATERIAL: APPLE
+  POSITION-X: 5
+  POSITION-Y: 1
+  NAME: '&eYemek'
+  LORE:
+    - 'Acıktıysan tıkla!'
+  ACTIONS:
+    - 'kit yemek'
+
+main:
+  MATERIAL: MINECART
+  POSITION-X: 8
+  POSITION-Y: 1
+  NAME: '&6Ana menüye dön'
+  ACTIONS:
+    - 'open: anamenu.yml'
+
+close-without-actions:
+  MATERIAL: redstone lamp
+  POSITION-X: 9
+  POSITION-Y: 1
+  NAME: '&6Kit menüsünü kapat'

@@ -1,0 +1,8 @@
+enableDiscordWebhook: false
+URL: ''
+violationList:
+     - '```ini'
+     - '[{player} flagged {hack} ({type}) : V({num}) : P({ping}) : F({vioType})]'
+     - '```'
+# every X amount of violations then send a message to discord, note do not set it below 5
+discordPlayerNum: 15

@@ -1,0 +1,573 @@
+# Use a YAML editor like NotepadPlusPlus to edit this file.  
+# After editing, back up your changes before reloading the server in case you made a syntax error.  
+# Use dollar signs ($) for formatting codes, which are documented here: http://minecraft.gamepedia.com/Formatting_codes
+Messages:
+  RespectingClaims:
+    Text: Claimleri Gormezden Gelmiyorsun.
+  IgnoringClaims:
+    Text: Claimleri Gormezden Geliyorsun.
+  SuccessfulAbandon:
+    Text: Claim Basariyla Kaldirildi, su anda {0} claim blogun var.
+    Notes: '0: remaining blocks'
+  RestoreNatureActivate:
+    Text: Kolay Claim Atmak Icin; /BasicClaims Yazabilirsiniz.
+  RestoreNatureAggressiveActivate:
+    Text: Agresif Mod Aktif.
+  FillModeActive:
+    Text: Fill mode activated with radius {0}.  Right click an area to fill.
+    Notes: '0: fill radius'
+  TransferClaimPermission:
+    Text: Bu Komutu Kullanamazsin!
+  TransferClaimMissing:
+    Text: There's no claim here.  Stand in the administrative claim you want to transfer.
+  TransferClaimAdminOnly:
+    Text: Bir Oyuncuya Sadece Idari Hak Talepleri Aktarilabilir.
+  PlayerNotFound2:
+    Text: Bu Isimde Bir Oyuncu Bulunamadi.
+  TransferTopLevel:
+    Text: Only top level claims (not subdivisions) may be transferred.  Stand outside
+      of the subdivision and try again.
+  TransferSuccess:
+    Text: Claim Transfer Edildi.
+  TrustListNoClaim:
+    Text: Istedigin Claimin Icinde Olman Gerekir!
+  ClearPermsOwnerOnly:
+    Text: Tum Izinleri Temizler.
+  UntrustIndividualAllClaims:
+    Text: Tum Claim Erisiminiz Iptal Edildi.
+    Notes: '0: untrusted player'
+  UntrustEveryoneAllClaims:
+    Text: Cleared permissions in ALL your claims.  To set permissions for a single
+      claim, stand inside it.
+  NoPermissionTrust:
+    Text: Yetkin Yok {0} Yonetemezsin
+    Notes: '0: claim owner''s name'
+  ClearPermissionsOneClaim:
+    Text: Tum Yetkileri Sifirlamak Icin Claimin Disinda Durun!
+  UntrustIndividualSingleClaim:
+    Text: Bu Claime {0} Tarihinde Erisim Iptal Edildi.
+    Notes: '0: untrusted player'
+  OnlySellBlocks:
+    Text: Sadece Claim Blogu Satilabilir.
+  BlockPurchaseCost:
+    Text: Claim Bloguu Fiyati {0}. Bakiyen {1}
+    Notes: '0: cost of one block; 1: player''s account balance'
+  ClaimBlockLimit:
+    Text: Claim Blogu Sinirina Geldin!
+  InsufficientFunds:
+    Text: Bakiye Yetersiz, Ihtiyacin Olan {0}. Bakiyen {1}.
+    Notes: '0: total cost; 1: player''s account balance'
+  PurchaseConfirmation:
+    Text: Cekilen Bakiye {0}. Claim Blogun {1}.
+    Notes: '0: total cost; 1: remaining blocks'
+  OnlyPurchaseBlocks:
+    Text: Sadece Claim Blogu Alinabilir.
+  BlockSaleValue:
+    Text: Claim Blogu Satis Fiyati {0}. Satabilecegin {1} Claim Blogun var.
+    Notes: '0: block value; 1: available blocks'
+  NotEnoughBlocksForSale:
+    Text: Satacak Hic Claim Blogun Yok!
+  BlockSaleConfirmation:
+    Text: Bakiyen {0}. Kalan Claim Blogun {1}
+    Notes: '0: amount deposited; 1: remaining blocks'
+  AdminClaimsMode:
+    Text: Admin Claim Modu Aktif! Tum Claimleri Duzenleyebilirsin.
+  BasicClaimsMode:
+    Text: Temel Olusturma Moduna Donuldu
+  SubdivisionMode:
+    Text: Claim Modu, Mevcut Iddialarinizda Claimler Olusturmak Icin Kurek Kullanin.
+      Moddan Cikmak Icin. /BasicClaims
+  SubdivisionVideo2:
+    Text: ' Claim Modu Yardimi Icin Tiklayin: {0}'
+    Notes: 0:video URL
+  DeleteClaimMissing:
+    Text: Burada Bir Claim Zaten Var.
+  DeletionSubdivisionWarning:
+    Text: Bu Claimi Silmek Istediginizden Eminseniz Tekrar /BasicClaims Yaziniz.
+  DeleteSuccess:
+    Text: Claim Basariyla Silindi.
+  CantDeleteAdminClaim:
+    Text: Bunun Icin Yetkin Yok!
+  DeleteAllSuccess:
+    Text: Silinen {0} Claim.
+    Notes: '0: owner''s name'
+  NoDeletePermission:
+    Text: Silmek Icin Yetkiniz Bulunmamakta.
+  AllAdminDeleted:
+    Text: Yetkili Tarafindan Tum Claimler Silinmistir.
+  AdjustBlocksSuccess:
+    Text: '{0} Adli Oyuncuya {1} Adet Claim Blogu Verilmistir, Simdiki Claim Blogu
+      {2}'
+    Notes: '0: player; 1: adjustment; 2: new total'
+  NotTrappedHere:
+    Text: Burada Insa Edebilirsiniz.
+  RescuePending:
+    Text: 10 Saniye Hareket Etmezsen Isinlanacaksin Lutfen Bekle.
+  NonSiegeWorld:
+    Text: Kusatma Burada Devre Disi.
+  AlreadySieging:
+    Text: Zaten Bir Kusatma Icine Girdiniz!
+  NotSiegableThere:
+    Text: '{0} isn''t protected there.'
+    Notes: '0: defending player'
+  SiegeTooFarAway:
+    Text: Kusatma Icin Cok Uzaktasin.
+  NoSiegeDefenseless:
+    Text: Bu Oyuncu Savunmasiz Baska Birini Sec!
+  AlreadyUnderSiegePlayer:
+    Text: '{0} Zaten Kusatma Altinda, Partiye Katil!'
+    Notes: '0: defending player'
+  AlreadyUnderSiegeArea:
+    Text: Bu Bolge Zaten Kusatma Altinda. Partiye Katil!
+  NoSiegeAdminClaim:
+    Text: Kusatma Bu Alanda Devre Disi Birakildi.
+  SiegeOnCooldown:
+    Text: Bu Defans Veya Iddia Icin Hala Kusatmadasin Baska Bir Kurban Bul.
+  SiegeAlert:
+    Text: Kusatma Altindasin! Eger Simdi Oturursan Oleceksin {0} Adli Oyuncuyu YenmeliVeya
+      Kacmamalisin.
+    Notes: '0: attacker name'
+  SiegeConfirmed:
+    Text: Kusatma Basladi! Eger Simdi Oturursan Oleceksin {0} Adli Oyuncuyu Yenmeli
+      Veya Kovalamaktan Vazgecmelisiniz.
+    Notes: '0: defender name'
+  AbandonClaimMissing:
+    Text: Tum Claimleri Kaldirmak Icin /AbandonAllClaims.
+  NotYourClaim:
+    Text: Bu Claim Sana Ait Degil!
+  DeleteTopLevelClaim:
+    Text: Bir Claimi Silmek Icin Icinde Durun, Tum Claimleri Silmek Icin Ise /AbandonTopLevelClaim
+      Yaziniz.
+  AbandonSuccess:
+    Text: Claim Basariyla Kaldirildi, {0} Claim Blogun Teslim Edildi.
+    Notes: '0: remaining claim blocks'
+  CantGrantThatPermission:
+    Text: Kendine Izinmi Vermeyi Dusunuyorsun ?
+  GrantPermissionNoClaim:
+    Text: Izin Vermek Istedigin Claimin Icinde Olmalisin.
+  GrantPermissionConfirmation:
+    Text: Claiminde {0} Isimli Oyuncuya Yetki Verdin. Yetkileri; {1} {2}.
+    Notes: '0: target player; 1: permission description; 2: scope (changed claims)'
+  ManageUniversalPermissionsInstruction:
+    Text: Tum Claimleri Kontrol Etmek Icin Disarida Dur!
+  ManageOneClaimPermissionsInstruction:
+    Text: Bir Claimi Yonetmek Icin Icinde Dur!
+  CollectivePublic:
+    Text: Halk.
+    Notes: as in 'granted the public permission to...'
+  BuildPermission:
+    Text: Insa Etme
+  ContainersPermission:
+    Text: Hayvan Erisimi
+  AccessPermission:
+    Text: Erisim Izni.
+  PermissionsPermission:
+    Text: Izinleri Yonet.
+  LocationCurrentClaim:
+    Text: Bolge.
+  LocationAllClaims:
+    Text: Tum Claimler'e Erisim
+  PvPImmunityStart:
+    Text: Envanterin Bos Oldugu Surece Saldirilara Karsi Korumadasin!
+  SiegeNoDrop:
+    Text: Kusatmada Yer Alan Esyalari Veremezsin.
+  DonateItemsInstruction:
+    Text: To give away the item(s) in your hand, left-click the chest again.
+  ChestFull:
+    Text: Bu Sandik Dolu!
+  DonationSuccess:
+    Text: Chest Transfer.
+  PlayerTooCloseForFire2:
+    Text: Bu Kadar Yakinda Yangin Baslatamazsin.
+  TooDeepToClaim:
+    Text: Cok Assagida Oldugun Icin Chest Korunmuyor, Yukarilara Koyman Gerek.
+  ChestClaimConfirmation:
+    Text: Chest Ile Claim Atilamiyor.
+  AutomaticClaimNotification:
+    Text: Bu Claim Artik Kirilmaya Karsi Korunuyor.
+  UnprotectedChestWarning:
+    Text: Bu Alan Korumali Degil, Su Anda Chest Ile Claim Atamazsin
+  ThatPlayerPvPImmune:
+    Text: Savunmasiz Bir Oyuncuya Zarar Veremezsin!
+  CantFightWhileImmune:
+    Text: Claimli Alanlarda PvP Kapali!
+  NoDamageClaimedEntity:
+    Text: Su Kisiye Ait {0}.
+    Notes: '0: owner name'
+  ShovelBasicClaimMode:
+    Text: Kurek Basit Claim Modunda.
+  RemainingBlocks:
+    Text: Senin {0} Claim Blogun Var.
+    Notes: '0: remaining blocks'
+  CreativeBasicsVideo2:
+    Text: Claim Atmayi Bilmiyorsan Yetkililerden Yardim Alabilirsin.
+    Notes: '{0}: video URL'
+  SurvivalBasicsVideo2:
+    Text: Claim Atmayi Bilmiyorsan Yetkililerden Yardim Alabilirsin.
+    Notes: '{0}: video URL'
+  TrappedChatKeyword:
+    Text: Tuzak
+    Notes: When mentioned in chat, players get information about the /trapped command.
+  TrappedInstructions:
+    Text: Birinin Claiminde Tuzagami DÃ¼stÃ¼n? /trapped
+  PvPNoDrop:
+    Text: Savas Esnasinda Esyalarini Birakamazsin.
+  SiegeNoTeleport:
+    Text: Kusatilmis Bir Bolgede Isinlanamazsin.
+  BesiegedNoTeleport:
+    Text: You can't teleport into a besieged area.
+  SiegeNoContainers:
+    Text: Bir Kusatma Esnasinda Kaplara Erisim Saglayamazsin.
+  PvPNoContainers:
+    Text: Savas Sirasinda Konteynerlere Erisemezsin.
+  PvPImmunityEnd:
+    Text: Simdi Diger Oyuncularla Savasabilirsiniz.
+  NoBedPermission:
+    Text: '{0} Adli Oyuncu Size Burada Uyumaniz Icin Izin Vermedi!'
+    Notes: '0: claim owner'
+  NoWildernessBuckets:
+    Text: You may only dump buckets inside your claim(s) or underground.
+  NoLavaNearOtherPlayer:
+    Text: You can't place lava this close to {0}.
+    Notes: '0: nearby player'
+  TooFarAway:
+    Text: Cok Uzak!
+  BlockNotClaimed:
+    Text: Bu Bolge Claimsiz.
+  BlockClaimed:
+    Text: Bu Claimin Sahibi {0}.
+    Notes: '0: claim owner'
+  SiegeNoShovel:
+    Text: Kuregi Kusatma Sirasinda Kullanamazsiniz
+  RestoreNaturePlayerInChunk:
+    Text: Unable to restore.  {0} is in that chunk.
+    Notes: '0: nearby player'
+  NoCreateClaimPermission:
+    Text: Claim Atmak Icin Iznin Yok!
+  ResizeNeedMoreBlocks:
+    Text: You don't have enough blocks for this size.  You need {0} more.
+    Notes: '0: how many needed'
+  NoCreativeUnClaim:
+    Text: You can't unclaim this land.  You can only make this claim larger or create
+      additional claims.
+  ClaimResizeSuccess:
+    Text: Claim resized.  {0} available claim blocks remaining.
+    Notes: '0: remaining blocks'
+  ResizeFailOverlap:
+    Text: Sectigin Yer Baska Bir Claimin Ustunde, Claimi Kaldirmak Icin /AbandonClaim
+  ResizeStart:
+    Text: Yeniden Boyutlandirma Icin Koselerden Itibaren Kurek Kullan.
+  ResizeFailOverlapSubdivision:
+    Text: You can't create a subdivision here because it would overlap another subdivision.  Consider
+      /abandonclaim to delete it, or use your shovel at a corner to resize it.
+  SubdivisionStart:
+    Text: Subdivision corner set!  Use your shovel at the location for the opposite
+      corner of this new subdivision.
+  CreateSubdivisionOverlap:
+    Text: Sectigin Yer Baska Bir Claimin Ustunde, Claimi Kaldirmak Icin /AbandonClaim
+  SubdivisionSuccess:
+    Text: Claim Basariyla Olusturuldu Arkadasini Eklemek Icin /trust <isim>
+  CreateClaimFailOverlap:
+    Text: Sectigin Yer Baska Bir Claimin Ustunde, Claimi Kaldirmak Icin /AbandonClaim
+  CreateClaimFailOverlapOtherPlayer:
+    Text: Buraya Claim Atamazsin Bu Alan {0} Adli Oyuncunun Claimine Denk Geliyor,
+      Baska Bir Yer Bul.
+    Notes: '0: other claim owner'
+  ClaimsDisabledWorld:
+    Text: Bu Dunyada Claim Aktif Degil!
+  ClaimStart:
+    Text: Bir Kose Secildi! En Az 10 Blok Capraz Say Ve Orayada Sag Tikla.
+  NewClaimTooNarrow:
+    Text: Sectigin Alan Cok Kucuk En Az {0} x {0} Bir Alan Secmen Gerekiyor.
+    Notes: '0: minimum claim width'
+  CreateClaimInsufficientBlocks:
+    Text: Burasi Icin Yeterli Claim Blogun Yok En Az {0} Claim Blogu Gerekli.
+    Notes: '0: additional blocks needed'
+  AbandonClaimAdvertisement:
+    Text: Claim Kaldirmak Icin /AbandonClaim.
+  CreateClaimFailOverlapShort:
+    Text: Sectiginiz Alan Baska Bir Claim Ile Cakisiyor, Yeni Bir Alan Secmek Icin
+      Kuregi Birakip Tekrar Alin.
+  CreateClaimSuccess:
+    Text: Claim Basariyla Olusturuldu! Arkadasini Eklemek Icin /trust <isim>
+  SiegeWinDoorsOpen:
+    Text: Congratulations!  Buttons and levers are temporarily unlocked (five minutes).
+  RescueAbortedMoved:
+    Text: Tasindin! Kurtarma Iptal Edildi.
+  SiegeDoorsLockedEjection:
+    Text: Looting time is up!  Ejected from the claim.
+  NoModifyDuringSiege:
+    Text: Claims can't be modified while under siege.
+  OnlyOwnersModifyClaims:
+    Text: Only {0} can modify this claim.
+    Notes: '0: owner name'
+  NoBuildUnderSiege:
+    Text: This claim is under siege by {0}.  No one can build here.
+    Notes: '0: attacker name'
+  NoBuildPvP:
+    Text: PvP Sirasinda Bir seyler Insa Edemezsin.
+  NoBuildPermission:
+    Text: Burasi Sana Ait Degil Zarar Veremezsin, Sahibi {0}
+    Notes: '0: owner name'
+  NonSiegeMaterial:
+    Text: That material is too tough to break.
+  NoOwnerBuildUnderSiege:
+    Text: Kusatma Altinda Iken Build Yapamazsin.
+  NoAccessPermission:
+    Text: Buraya Dokunamazsin Cunku Buranin Sahibi {0}
+    Notes: '0: owner name.  access permission controls buttons, levers, and beds'
+  NoContainersSiege:
+    Text: This claim is under siege by {0}.  No one can access containers here right
+      now.
+    Notes: '0: attacker name'
+  NoContainersPermission:
+    Text: Buraya Dokunamazsin Cunku Buranin Sahibi {0}
+    Notes: '0: owner''s name.  containers also include crafting blocks'
+  OwnerNameForAdminClaims:
+    Text: Bir Yonetici.
+    Notes: as in 'You don't have an administrator's permission to build here.'
+  ClaimTooSmallForEntities:
+    Text: This claim isn't big enough for that.  Try enlarging it.
+  TooManyEntitiesInClaim:
+    Text: This claim has too many entities already.  Try enlarging the claim or removing
+      some animals, monsters, paintings, or minecarts.
+  YouHaveNoClaims:
+    Text: You don't have any land claims.
+  ConfirmFluidRemoval:
+    Text: Eminseniz Tekrar /AbandonClaim Yaziniz..
+  AutoBanNotify:
+    Text: Auto-banned {0}({1}).  See logs for details.
+  AdjustGroupBlocksSuccess:
+    Text: 'Adjusted bonus claim blocks for players with the {0} permission by {1}.  New
+      total: {2}.'
+    Notes: '0: permission; 1: adjustment amount; 2: new total bonus'
+  InvalidPermissionID:
+    Text: Please specify a player name, or a permission in [brackets].
+  HowToClaimRegex:
+    Text: (^|.*\W)how\W.*\W(claim|protect|lock)(\W.*|$)
+    Notes: This is a Java Regular Expression.  Look it up before editing!  It's used
+      to tell players about the demo video when they ask how to claim land.
+  NoBuildOutsideClaims:
+    Text: Burada Build Yapamazsin.
+  PlayerOfflineTime:
+    Text: '  Son Giris {0} Gun Once'
+    Notes: '0: number of full days since last login'
+  BuildingOutsideClaims:
+    Text: Korunmas�z bir alanda bulunuyorsun.
+  TrappedWontWorkHere:
+    Text: Sorry, unable to find a safe location to teleport you to.  Contact an admin,
+      or consider /kill if you don't want to wait.
+  CommandBannedInPvP:
+    Text: You can't use that command while in PvP combat.
+  UnclaimCleanupWarning:
+    Text: The land you've unclaimed may be changed by other players or cleaned up
+      by administrators.  If you've built something there you want to keep, you should
+      reclaim it.
+  BuySellNotConfigured:
+    Text: Malesef, Claim Blogu Almak Ve Satmak Devre Disi.
+  NoTeleportPvPCombat:
+    Text: You can't teleport while fighting another player.
+  NoTNTDamageAboveSeaLevel:
+    Text: 'Uyari: TNT Ile Claimli Alanlara Zarar Veremezsiniz.'
+  NoTNTDamageClaims:
+    Text: 'Uyari: TNT Ile Claimli Alanlara Zarar Veremezsiniz.'
+  IgnoreClaimsAdvertisement:
+    Text: Gecersiz Kilmak Icin, /IgnoreClaims
+  NoPermissionForCommand:
+    Text: Bunun Icin Yetkin Yok!
+  ClaimsListNoPermission:
+    Text: You don't have permission to get information about another player's land
+      claims.
+  ExplosivesDisabled:
+    Text: Burasi Patlamaya Korumalidir, Korumayi Devre Disi Birakmak Icin /ClaimExplosions
+      Yaz.
+  ExplosivesEnabled:
+    Text: Burasi Patlamaya Korumali Degildir, Korumayi Aktif Etmek Icin /ClaimExplosions
+      Yaz.
+  ClaimExplosivesAdvertisement:
+    Text: Patlayicilarin Bloklarinizi Yok Etmesine Izin Vermek Icin /ClaimExplosions
+      Yazin.
+  PlayerInPvPSafeZone:
+    Text: Oyuncu Guvenli Bolgede, PvP Kapali.
+  NoPistonsOutsideClaims:
+    Text: 'Uyari: Claimli Alanda Piston Kullanamazsin.'
+  SoftMuted:
+    Text: Soft-muted {0}.
+    Notes: '0: The changed player''s name.'
+  UnSoftMuted:
+    Text: Un-soft-muted {0}.
+    Notes: '0: The changed player''s name.'
+  DropUnlockAdvertisement:
+    Text: Other players can't pick up your dropped items unless you /UnlockDrops first.
+  PickupBlockedExplanation:
+    Text: You can't pick this up unless {0} uses /UnlockDrops.
+    Notes: '0: The item stack''s owner.'
+  DropUnlockConfirmation:
+    Text: Unlocked your drops.  Other players may now pick them up (until you die
+      again).
+  AdvertiseACandACB:
+    Text: Sinirsiz Claim Blogu Ve Oyuncularin Claimini Silebilmek Icin /AdminClaims
+  AdvertiseAdminClaims:
+    Text: You could create an administrative land claim instead using /AdminClaims,
+      which you'd share with other administrators.
+  AdvertiseACB:
+    Text: You may use /ACB to give yourself more claim blocks.
+  NotYourPet:
+    Text: That belongs to {0} until it's given to you with /GivePet.
+    Notes: '0: owner name'
+  PetGiveawayConfirmation:
+    Text: Pet Transfer.
+  PetTransferCancellation:
+    Text: Pet Transfer Basarisiz.
+  ReadyToTransferPet:
+    Text: Ready to transfer!  Right-click the pet you'd like to give away, or cancel
+      with /GivePet cancel.
+  AvoidGriefClaimLand:
+    Text: Prevent grief!  If you claim your land, you will be grief-proof.
+  BecomeMayor:
+    Text: Subdivide your land claim and become a mayor!
+  ClaimCreationFailedOverClaimCountLimit:
+    Text: You've reached your limit on land claims.  Use /AbandonClaim to remove one
+      before creating another.
+  CreateClaimFailOverlapRegion:
+    Text: You can't claim all of this because you're not allowed to build here.
+  ResizeFailOverlapRegion:
+    Text: You don't have permission to build there, so you can't claim that area.
+  NoBuildPortalPermission:
+    Text: You can't use this portal because you don't have {0}'s permission to build
+      an exit portal in the destination land claim.
+    Notes: '0: Destination land claim owner''s name.'
+  ShowNearbyClaims:
+    Text: Found {0} land claims.
+    Notes: '0: Number of claims found.'
+  NoChatUntilMove:
+    Text: Sorry, but you have to move a little more before you can chat.  We get lots
+      of spam bots here.  :)
+  SiegeImmune:
+    Text: That player is immune to /siege.
+  SetClaimBlocksSuccess:
+    Text: Updated accrued claim blocks.
+  IgnoreConfirmation:
+    Text: You're now ignoring chat messages from that player.
+  NotIgnoringPlayer:
+    Text: You're not ignoring that player.
+  UnIgnoreConfirmation:
+    Text: You're no longer ignoring chat messages from that player.
+  SeparateConfirmation:
+    Text: Those players will now ignore each other in chat.
+  UnSeparateConfirmation:
+    Text: Those players will no longer ignore each other in chat.
+  NotIgnoringAnyone:
+    Text: You're not ignoring anyone.
+  TrustListHeader:
+    Text: 'Explicit permissions here:'
+  Manage:
+    Text: Yonetme
+  Build:
+    Text: Insa
+  Containers:
+    Text: Konteyner
+  Access:
+    Text: Erisim
+  StartBlockMath:
+    Text: '{0} blocks from play + {1} bonus = {2} total.'
+  ClaimsListHeader:
+    Text: 'Claims:'
+  ContinueBlockMath:
+    Text: ' (-{0} blocks)'
+  EndBlockMath:
+    Text: ' = {0} blocks left to spend'
+  NoClaimDuringPvP:
+    Text: You can't claim lands during PvP combat.
+  UntrustAllOwnerOnly:
+    Text: Only the claim owner can clear all its permissions.
+  ManagersDontUntrustManagers:
+    Text: Only the claim owner can demote a manager.
+  BookAuthor:
+    Text: BigScary
+  BookTitle:
+    Text: How to Claim Land
+  BookIntro:
+    Text: Claim land to protect your stuff!  Click the link above to learn land claims
+      in 3 minutes or less.  :)
+  BookDisabledChestClaims:
+    Text: '  On this server, placing a chest will NOT claim land for you.'
+  BookUsefulCommands:
+    Text: 'Useful Commands:'
+  BookLink:
+    Text: 'Click: {0}'
+    Notes: '{0}: video URL'
+  BookTools:
+    Text: Our claim tools are {0} and {1}.
+    Notes: '0: claim modification tool name; 1:claim information tool name'
+  ResizeClaimTooNarrow:
+    Text: This new size would be too small.  Claims must be at least {0} blocks wide.
+    Notes: '0: minimum claim width'
+  ResizeClaimInsufficientArea:
+    Text: Bu Alan Cok Kucuk Bir Claimde En Az {0} Claim Blogu Kullanilmasi Gerekiyor.
+    Notes: '0: minimum claim area'
+  NoProfanity:
+    Text: Please moderate your language.
+  PlayerNotIgnorable:
+    Text: O Oyuncuyu Gormezden Gelemezsin.
+  NoEnoughBlocksForChestClaim:
+    Text: Because you don't have any claim blocks available, no automatic land claim
+      was created for you.  You can use /ClaimsList to monitor your available claim
+      block total.
+  IsIgnoringYou:
+    Text: That player is ignoring you.
+  MustHoldModificationToolForThat:
+    Text: You must be holding a golden shovel to do that.
+  StandInClaimToResize:
+    Text: Stand inside the land claim you want to resize.
+  ClaimsExtendToSky:
+    Text: Land claims always extend to max build height.
+  ClaimsAutoExtendDownward:
+    Text: Land claims auto-extend deeper into the ground when you place blocks under
+      them.
+  MinimumRadius:
+    Text: Minimum radius is {0}.
+    Notes: '0: minimum radius'
+  RadiusRequiresGoldenShovel:
+    Text: You must be holding a golden shovel when specifying a radius.
+  ClaimTooSmallForActiveBlocks:
+    Text: This claim isn't big enough to support any active block types (hoppers,
+      spawners, beacons...).  Make the claim bigger first.
+  TooManyActiveBlocksInClaim:
+    Text: This claim is at its limit for active block types (hoppers, spawners, beacons...).  Either
+      make it bigger, or remove other active blocks first.
+  MaxBonusReached:
+    Text: Can't purchase {0} more claim blocks. The server has a limit of {1} bonus
+      claim blocks.
+    Notes: '0: block count; 1: bonus claims limit'
+  NoSiegeYourself:
+    Text: You cannot siege yourself, don't be silly
+  ConfirmAbandonAllClaims:
+    Text: Are you sure you want to abandon ALL of your claims?  Please confirm with
+      /AbandonAllClaims confirm
+  AutomaticClaimOtherClaimTooClose:
+    Text: Cannot create a claim for your chest, there is another claim too close!
+  DropUnlockOthersConfirmation:
+    Text: Unlocked {0}'s drops.
+    Notes: '0: The owner of the unlocked drops.'
+  HasSubclaimRestriction:
+    Text: This subclaim does not inherit permissions from the parent
+  ConsoleOnlyCommand:
+    Text: That command may only be executed from the server console.
+  WorldNotFound:
+    Text: World not found.
+  AdjustBlocksAllSuccess:
+    Text: Adjusted all online players' bonus claim blocks by {0}.
+    Notes: '0: adjustment amount'
+  TooMuchIpOverlap:
+    Text: Sorry, there are too many players logged in with your IP address.
+  StandInSubclaim:
+    Text: You need to be standing in a subclaim to restrict it
+  SubclaimRestricted:
+    Text: This subclaim's permissions will no longer inherit from the parent claim
+  SubclaimUnrestricted:
+    Text: This subclaim's permissions will now inherit from the parent claim
+  NetherPortalTrapDetectionMessage:
+    Text: It seems you might be stuck inside a nether portal. We will rescue you in
+      a few seconds if that is the case!
+    Notes: Sent to player on join, if they left while inside a nether portal.

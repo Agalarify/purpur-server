@@ -1,0 +1,217 @@
+world:
+  255,65,1049:
+    owner: ceea51b6-c319-3df9-8d4b-e5f689a671d3
+    ownerName: JustDreamings
+    size: 9
+    created: 1636063448979
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ARTHROPODS: 5
+          ARROW_FIRE: 1
+          MENDING: 1
+          ARROW_DAMAGE: 5
+          DURABILITY: 3
+        repair-cost: 31
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: RABBIT
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: STRING
+      amount: 6
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: IRON_INGOT
+      amount: 7
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: ANVIL
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: BONE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: GUNPOWDER
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: CACTUS
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: RABBIT_HIDE
+  13,64,14:
+    owner: 193e311b-b3a8-365a-b052-1c7d64fe06cb
+    ownerName: Caticer
+    size: 9
+    created: 1636064889161
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: POTATO
+      amount: 8
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: BOOK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: EMERALD
+      amount: 4
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: BREAD
+      amount: 6
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: APPLE
+      amount: 9
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        Damage: 18
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        Damage: 18
+  25,63,37:
+    owner: 193e311b-b3a8-365a-b052-1c7d64fe06cb
+    ownerName: Caticer
+    size: 9
+    created: 1636065237182
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: WHEAT
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: WHEAT_SEEDS
+      amount: 3
+  -225,69,4:
+    owner: bce80227-29e8-3600-a697-ee7de1f0df29
+    ownerName: ForkPosix
+    size: 18
+    created: 1636067718656
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Damage: 88
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: DIAMOND_PICKAXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: STICK
+      amount: 3
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: OAK_SAPLING
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: BEEF
+      amount: 3
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: LEATHER
+      amount: 4
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: ROTTEN_FLESH
+      amount: 5
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: STRING
+      amount: 3
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: COOKED_MUTTON
+      amount: 4
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: WHITE_WOOL
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: MUTTON
+      amount: 4
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: SPIDER_EYE
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        Damage: 18
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        internal: H4sIAAAAAAAA/+NiYOBi4AnOLs3JCSjKT8vMSeVi4AKyClKLSjJTizkZOEpSK0pKi1KLuRgYGBg5GFjDEnNKUxlWpBoH5aR6BBkm54ZV+eeVhAQb5PgDaSC/3MwzN8MgxcPRzKfS0iAqAsiO8MpJrjQtSQw3zYk09sqIygssTcoNM/CBmxFaFuUSluWXG5Tlm+uVGZUVWhFZ5WsUaRSV5VeVXOHnEmriF+5qFBkSauTv4pcTleWV6RsSlO3nkpLt7x6V61flauCXFWoQGZJuCtRlGOXuauSb5ZmZFmFoycDAzcDkmQJ0PMuVhNqbj7KctXYeOv++q+kl0EMAX/FoEf4AAAA=
+  36,65,-2:
+    owner: 0635ce7b-6310-3bd7-af3b-15c61500c6c3
+    ownerName: keriz31
+    size: 9
+    created: 1636146471750
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: WHITE_BED
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: YELLOW_WOOL
+      amount: 3
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: WHITE_WOOL
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: DANDELION
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: GLOW_INK_SAC
+      amount: 3
+  -172,65,15:
+    owner: 2b71dc7e-09e8-38a0-b1cc-fa90e30f6312
+    ownerName: jillkircheis
+    size: 9
+    created: 1638525785515
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: DIRT
+  -166,64,6:
+    owner: 2b71dc7e-09e8-38a0-b1cc-fa90e30f6312
+    ownerName: jillkircheis
+    size: 9
+    created: 1638525836972
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        internal: H4sIAAAAAAAA/+NiYOBi4AnOLs3JCSjKT8vMSeVi4AKyClKLSjJTizkZOEpSK0pKi1KLuRgYGBg5GFjDEnNKUxlWpBoH5aR6BBkm54ZV+eeVhAQb5PgDaSC/3MwzN8MgxcPRzKfS0iAqAsiO8MpJrjQtSQw3zYk09sqIygssTcoNM/CBmxFaFuUSluWXG5Tlm+uVGZUVWhFZ5WsUaRSV5VeVXOHnEmriF+5qFBkSauTv4pcTleWV6RsSlO3nkpLt7x6V61flauCXFWoQGZJuCtRlGOXuauSb5ZmZFmFoycDAzcDkmQJ0PMuVhNqbj7KctXYeOv++q+kl0EMAX/FoEf4AAAA=
+Survival: {}

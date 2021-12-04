@@ -1,0 +1,57 @@
+configVersion: 1.0.8
+
+#Config variables:
+#%nick% - username, %check% - type of check
+
+punishment:
+  #Enable or disable all checks
+  enable: true
+  #The punishment command
+  #Change if there is no command "tempbanip" on your server
+  punishmentCommand: "tempbanip %nick% 15m Hile alglılandı! (15dk yasaklandın) False-positive için t.me/agalarhl"
+  #Delays execution of the "punishmentCommand" for 15 seconds
+  #Use it to confuse cheaters
+  punishmentTimer: false
+  #Notice for players with "lightanticheat.alerts" permission
+  #Performed simultaneously with "punishmentCommand"
+  #Blank notice text to disable
+  punishmentNotice: "&f(LAC) &c%nick%&f &c%check%&f Kullanmaya çalıştı!"
+  #Cancel the movements of players suspected of hacking
+  #This speeds up detection and increases accuracy
+  #Some not movements/complex checks don't support this
+  cancelHacking: true
+
+checks:
+  #Checks flight hacks (Flight, PacketFlight, Jetpack, AirJump, etc)
+  Flight: true
+  #Checks  flight on boats (BoatFly)
+  BoatFly: true
+  #Checks impossible elytra flight speeds (ElytraFly)
+  ElytraFly: true
+  #Checks impossible speeds on ground (Speed, VanillaSpeed, GroundSpeed, etc)
+  Speed: true
+  #Checks the speed of sending packets (Timer)
+  Timer: true
+  #Checks for impossible movement (some HighJump, NoFall, etc)
+  IrregularMovement: true
+  #Checks for fall without damage (NoFall)
+  NoFall: true
+  #Checks walking on liquids (Jesus)
+  Jesus: true
+  #Checks the climbing speed (FastClimb)
+  FastClimb: true
+  #Checks hitting on entities (MultiAura, some KillAura)
+  MultiAura: true
+  #Checks the distance to hit on entities (Reach)
+  Reach: true
+  #Checks the critical hit conditions (Criticals)
+  Criticals: true
+  #Checks for impossible block placements (AirPlace, AutoBuild, EasyPlaceMode, etc)
+  IrregularPlacement: true
+  #Checks the impossible of breaking blocks (Nuker)
+  Nuker: true
+
+messages:
+  unknownCommand: "&bUpdate values from 'config.yml': /lac reload"
+  reloadCommand: "&bLightAntiCheat reloaded"
+  unresolvedCommand: "&bYou don't have permission to do this"

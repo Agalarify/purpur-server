@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 212.154.4.118
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1638525858941
+  login: 1638525487884
+money: '0'
+last-account-name: jillkircheis
+lastlocation:
+  world: 88801938-6eb4-492d-a92c-9a7a9d514424
+  world-name: world
+  x: -165.00341113179198
+  y: 63.9375
+  z: 6.480282306402035
+  yaw: -56.847320556640625
+  pitch: 23.25011444091797
+logoutlocation:
+  world: 88801938-6eb4-492d-a92c-9a7a9d514424
+  world-name: world
+  x: -133.79036380948347
+  y: 62.9375
+  z: -2.63163847188632
+  yaw: 167.70440673828125
+  pitch: 24.149927139282227

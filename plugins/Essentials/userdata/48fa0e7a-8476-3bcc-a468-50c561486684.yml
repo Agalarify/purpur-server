@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 10.66.66.7
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1636061552163
+  login: 1636061422030
+money: '0'
+last-account-name: Agalar31
+logoutlocation:
+  world: 44bfc096-1bd5-4665-a69e-49e26297bbf5
+  world-name: world
+  x: 192.0
+  y: 67.0
+  z: 224.0
+  yaw: 0.0
+  pitch: 0.0

@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.187.247.142
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1636394610029
+  login: 1636394598235
+money: '0'
+last-account-name: DanniBcXd
+logoutlocation:
+  world: 88801938-6eb4-492d-a92c-9a7a9d514424
+  world-name: world
+  x: -126.5
+  y: 63.0
+  z: 27.5
+  yaw: 5.168460845947266
+  pitch: 22.500001907348633

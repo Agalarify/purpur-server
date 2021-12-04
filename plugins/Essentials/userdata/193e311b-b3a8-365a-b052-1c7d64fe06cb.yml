@@ -1,0 +1,52 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 95.70.222.123
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1636235683317
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1636911820402
+  login: 1636911309679
+  kits:
+    baslangic: 1636064904281
+    yemek: 1636128513524
+    claim: 1636109076916
+    info3: 1636128535086
+money: '0'
+last-account-name: Caticer
+logoutlocation:
+  world: 88801938-6eb4-492d-a92c-9a7a9d514424
+  world-name: world
+  x: -451.2869440238551
+  y: 72.0
+  z: 16.993617357317586
+  yaw: 81.13446044921875
+  pitch: 18.450719833374023
+lastlocation:
+  world: 88801938-6eb4-492d-a92c-9a7a9d514424
+  world-name: world
+  x: -323.57578096906786
+  y: 66.0
+  z: -51.024415265636996
+  yaw: -10.03245735168457
+  pitch: 17.398700714111328
+homes:
+  ev:
+    world: 88801938-6eb4-492d-a92c-9a7a9d514424
+    world-name: world
+    x: -451.72031180458043
+    y: 72.0
+    z: 11.613728160314
+    yaw: -117.66764831542969
+    pitch: 13.650026321411133

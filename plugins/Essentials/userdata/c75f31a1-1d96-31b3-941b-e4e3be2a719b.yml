@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 154.21.20.171
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1638616335818
+  login: 1638616328747
+money: '0'
+last-account-name: Agent77
+logoutlocation:
+  world: 88801938-6eb4-492d-a92c-9a7a9d514424
+  world-name: world
+  x: -122.5
+  y: 63.0
+  z: 12.5
+  yaw: 1.5926028490066528
+  pitch: 0.0

@@ -1,0 +1,58 @@
+kits:
+  baslangic:
+    delay: -1
+    items:
+    - stonesword 1
+    - stoneshovel 1
+    - stonepickaxe 1
+    - stoneaxe 1
+  claim:
+    delay: 10
+    items:
+    - golden_shovel 1 name:claim küreği
+    - stick 1
+  bilgikitabi:
+    delay: 10
+    items:
+    - book:book
+    - book:info
+  yemek:
+    delay: 600
+    items:
+    - apple 16
+  info2:
+    delay: 1
+    items:
+    - written_book 1 title:Sunucu_Bilgisi author:pexie page1:Menüyü_açmak_için_/menü_yaz.|Menüde_Kitleri,_Warplar_ve_gereken_bilgileri_bulabilirsin|----------------------------|Genel_sunucu_bilgisi:|-_Claimli_arazine_7_gün_içinde_uğramazsan_claim_kaldırılır_(sadıklarla_beraber).||-_Başlangıç_kitini_sadece_1_defa_alabilirsin_(/menu'den_kitler_bölümüne_git)
+      page2:-_Yemek_kitini_10_dakikada_bir_alabilirsin_(/menu'den_kitler_bölümüne_git).||-_Başlangıçta_100_claim_bloğun_olur_bu_ne_kadarlık_bir_alana_claim_atabileceğini_belirler_(100_block_=_10x10).||-_Oynadığın_her_saat_100_claim_bloğu_kazanırsın.
+      page3:-_Claimli_arazinin_yakınlarında_veya_içinde_bir_alev_varsa_yayılır._yapılarının_yanmamasını_istiyorsan_söndürmeye_bak.||-_Diğer_oyuncular_yapılarını_direk_yakamaz_ancak_ateş_topu_veya_tnt_cannon_ile_yakabilirler_dikkatli_ol.
+      page4:-_Alevler_için_geçerli_olan_herşey_su_ve_lav_için_de_geçerli.||-_Claim_içinde_ölürsen_itemlerin_düşer.||-_Claimli_arazilerde_normalde_oldğu_gibi_patlamalar_açık_(TNT,_Creeper_vb.)
+      page5:-_PvP_başlatırsan_veya_biri_saldırırsa_15sn_boyunca_şunları_yapamazsın:||_*_PvP_varken_çıkarsan_ölürsün._15sn_beklemelisin.|_*_/home,_/spawn,_/tpa,_/kit_gibi_komutları_kullanamazsın.|*_Ölürsen_Xp_ve_itemlerini_kaybedersin._
+      page6:Ölürsen,_Arazin_yıkılırsa,_İtemlerini_kaybedersen_bundan_sen_sorumlusun!|----------------------------|/skin_[skinadı]_komutu_ile_mevcut_görünümünü_değiştirebilisin.|----------------------------|Telegram_grubuna_katıl:_https://t.me/agalarhl
+    - written_book 16 title:Sunucu_Bilgisi author:pexie page1:Menüyü_açmak_için_/menü_yaz.|Menüde_Kitleri,_Warplar_ve_gereken_bilgileri_bulabilirsin|----------------------------|Genel_sunucu_bilgisi:|-_Claimli_arazine_7_gün_içinde_uğramazsan_claim_kaldırılır_(sadıklarla_beraber).||-_Başlangıç_kitini_sadece_1_defa_alabilirsin_(/menu'den_kitler_bölümüne_git)
+      page2:-_Yemek_kitini_10_dakikada_bir_alabilirsin_(/menu'den_kitler_bölümüne_git).||-_Başlangıçta_100_claim_bloğun_olur_bu_ne_kadarlık_bir_alana_claim_atabileceğini_belirler_(100_block_=_10x10).||-_Oynadığın_her_saat_100_claim_bloğu_kazanırsın.
+      page3:-_Claimli_arazinin_yakınlarında_veya_içinde_bir_alev_varsa_yayılır._yapılarının_yanmamasını_istiyorsan_söndürmeye_bak.||-_Diğer_oyuncular_yapılarını_direk_yakamaz_ancak_ateş_topu_veya_tnt_cannon_ile_yakabilirler_dikkatli_ol.
+      page4:-_Alevler_için_geçerli_olan_herşey_su_ve_lav_için_de_geçerli.||-_Claim_içinde_ölürsen_itemlerin_düşer.||-_Claimli_arazilerde_normalde_oldğu_gibi_patlamalar_açık_(TNT,_Creeper_vb.)
+      page5:-_PvP_başlatırsan_veya_biri_saldırırsa_15sn_boyunca_şunları_yapamazsın:||_*_PvP_varken_çıkarsan_ölürsün._15sn_beklemelisin.|_*_/home,_/spawn,_/tpa,_/kit_gibi_komutları_kullanamazsın.|*_Ölürsen_Xp_ve_itemlerini_kaybedersin._
+      page6:Ölürsen,_Arazin_yıkılırsa,_İtemlerini_kaybedersen_bundan_sen_sorumlusun!|----------------------------|/skin_[skinadı]_komutu_ile_mevcut_görünümünü_değiştirebilisin.|----------------------------|Telegram_grubuna_katıl:_https://t.me/agalarhl
+    - written_book 16 title:Sunucu_Bilgisi author:pexie page1:Menüyü_açmak_için_/menü_yaz.|Menüde_Kitleri,_Warplar_ve_gereken_bilgileri_bulabilirsin|----------------------------|Genel_sunucu_bilgisi:|-_Claimli_arazine_7_gün_içinde_uğramazsan_claim_kaldırılır_(sadıklarla_beraber).||-_Başlangıç_kitini_sadece_1_defa_alabilirsin_(/menu'den_kitler_bölümüne_git)
+      page2:-_Yemek_kitini_10_dakikada_bir_alabilirsin_(/menu'den_kitler_bölümüne_git).||-_Başlangıçta_100_claim_bloğun_olur_bu_ne_kadarlık_bir_alana_claim_atabileceğini_belirler_(100_block_=_10x10).||-_Oynadığın_her_saat_100_claim_bloğu_kazanırsın.
+      page3:-_Claimli_arazinin_yakınlarında_veya_içinde_bir_alev_varsa_yayılır._yapılarının_yanmamasını_istiyorsan_söndürmeye_bak.||-_Diğer_oyuncular_yapılarını_direk_yakamaz_ancak_ateş_topu_veya_tnt_cannon_ile_yakabilirler_dikkatli_ol.
+      page4:-_Alevler_için_geçerli_olan_herşey_su_ve_lav_için_de_geçerli.||-_Claim_içinde_ölürsen_itemlerin_düşer.||-_Claimli_arazilerde_normalde_oldğu_gibi_patlamalar_açık_(TNT,_Creeper_vb.)
+      page5:-_PvP_başlatırsan_veya_biri_saldırırsa_15sn_boyunca_şunları_yapamazsın:||_*_PvP_varken_çıkarsan_ölürsün._15sn_beklemelisin.|_*_/home,_/spawn,_/tpa,_/kit_gibi_komutları_kullanamazsın.|*_Ölürsen_Xp_ve_itemlerini_kaybedersin._
+      page6:Ölürsen,_Arazin_yıkılırsa,_İtemlerini_kaybedersen_bundan_sen_sorumlusun!|----------------------------|/skin_[skinadı]_komutu_ile_mevcut_görünümünü_değiştirebilisin.|----------------------------|Telegram_grubuna_katıl:_https://t.me/agalarhl
+    - written_book 16 title:Sunucu_Bilgisi author:pexie page1:Menüyü_açmak_için_/menü_yaz.|Menüde_Kitleri,_Warplar_ve_gereken_bilgileri_bulabilirsin|----------------------------|Genel_sunucu_bilgisi:|-_Claimli_arazine_7_gün_içinde_uğramazsan_claim_kaldırılır_(sadıklarla_beraber).||-_Başlangıç_kitini_sadece_1_defa_alabilirsin_(/menu'den_kitler_bölümüne_git)
+      page2:-_Yemek_kitini_10_dakikada_bir_alabilirsin_(/menu'den_kitler_bölümüne_git).||-_Başlangıçta_100_claim_bloğun_olur_bu_ne_kadarlık_bir_alana_claim_atabileceğini_belirler_(100_block_=_10x10).||-_Oynadığın_her_saat_100_claim_bloğu_kazanırsın.
+      page3:-_Claimli_arazinin_yakınlarında_veya_içinde_bir_alev_varsa_yayılır._yapılarının_yanmamasını_istiyorsan_söndürmeye_bak.||-_Diğer_oyuncular_yapılarını_direk_yakamaz_ancak_ateş_topu_veya_tnt_cannon_ile_yakabilirler_dikkatli_ol.
+      page4:-_Alevler_için_geçerli_olan_herşey_su_ve_lav_için_de_geçerli.||-_Claim_içinde_ölürsen_itemlerin_düşer.||-_Claimli_arazilerde_normalde_oldğu_gibi_patlamalar_açık_(TNT,_Creeper_vb.)
+      page5:-_PvP_başlatırsan_veya_biri_saldırırsa_15sn_boyunca_şunları_yapamazsın:||_*_PvP_varken_çıkarsan_ölürsün._15sn_beklemelisin.|_*_/home,_/spawn,_/tpa,_/kit_gibi_komutları_kullanamazsın.|*_Ölürsen_Xp_ve_itemlerini_kaybedersin._
+      page6:Ölürsen,_Arazin_yıkılırsa,_İtemlerini_kaybedersen_bundan_sen_sorumlusun!|----------------------------|/skin_[skinadı]_komutu_ile_mevcut_görünümünü_değiştirebilisin.|----------------------------|Telegram_grubuna_katıl:_https://t.me/agalarhl
+  info3:
+    delay: 1
+    items:
+    - written_book 1 title:Sunucu_Bilgisi author:pexie page1:Menüyü_açmak_için_/menü_yaz.|Menüde_Kitleri,_Warplar_ve_gereken_bilgileri_bulabilirsin|----------------------------|Genel_sunucu_bilgisi:|-_Claimli_arazine_7_gün_içinde_uğramazsan_claim_kaldırılır_(sadıklarla_beraber).||-_Başlangıç_kitini_sadece_1_defa_alabilirsin_(/menu'den_kitler_bölümüne_git)
+      page2:-_Yemek_kitini_10_dakikada_bir_alabilirsin_(/menu'den_kitler_bölümüne_git).||-_Başlangıçta_100_claim_bloğun_olur_bu_ne_kadarlık_bir_alana_claim_atabileceğini_belirler_(100_block_=_10x10).||-_Oynadığın_her_saat_100_claim_bloğu_kazanırsın.
+      page3:-_Claimli_arazinin_yakınlarında_veya_içinde_bir_alev_varsa_yayılır._yapılarının_yanmamasını_istiyorsan_söndürmeye_bak.||-_Diğer_oyuncular_yapılarını_direk_yakamaz_ancak_ateş_topu_veya_tnt_cannon_ile_yakabilirler_dikkatli_ol.
+      page4:-_Alevler_için_geçerli_olan_herşey_su_ve_lav_için_de_geçerli.||-_Claim_içinde_ölürsen_itemlerin_düşer.||-_Claimli_arazilerde_normalde_oldğu_gibi_patlamalar_açık_(TNT,_Creeper_vb.)
+      page5:-_PvP_başlatırsan_veya_biri_saldırırsa_15sn_boyunca_şunları_yapamazsın:||_*_PvP_varken_çıkarsan_ölürsün._15sn_beklemelisin.|_*_/home,_/spawn,_/tpa,_/kit_gibi_komutları_kullanamazsın.|*_Ölürsen_Xp_ve_itemlerini_kaybedersin._
+      page6:Ölürsen,_Arazin_yıkılırsa,_İtemlerini_kaybedersen_bundan_sen_sorumlusun!|----------------------------|/skin_[skinadı]_komutu_ile_mevcut_görünümünü_değiştirebilisin.|----------------------------|Telegram_grubuna_katıl:_https://t.me/agalarhl

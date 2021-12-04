@@ -1,0 +1,2 @@
+&6Hoşgeldin, {PLAYER}&6!
+&6Menüyü çamak için &c/menu&6 yaz.
