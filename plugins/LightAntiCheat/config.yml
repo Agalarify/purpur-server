@@ -1,55 +1,77 @@
-configVersion: 1.0.8
+configVersion: 1.1.4
 
 #Config variables:
-#%nick% - username, %check% - type of check
+#%username% - username, %check% - type of check
 
 punishment:
   #Enable or disable all checks
   enable: true
   #The punishment command
-  #Change if there is no command "tempbanip" on your server
-  punishmentCommand: "tempbanip %nick% 15m Hile alglılandı! (15dk yasaklandın) False-positive için t.me/agalarhl"
-  #Delays execution of the "punishmentCommand" for 15 seconds
-  #Use it to confuse cheaters
+  #Change it if there is no "tempbanip" command
+  punishmentCommand: "tempbanip %username% 15m &cCheats detected!"
+  #Delay in executing "punishmentCommand" for 15 seconds
+  #You can use it to confuse cheaters
   punishmentTimer: false
-  #Notice for players with "lightanticheat.alerts" permission
-  #Performed simultaneously with "punishmentCommand"
-  #Blank notice text to disable
-  punishmentNotice: "&f(LAC) &c%nick%&f &c%check%&f Kullanmaya çalıştı!"
-  #Cancel the movements of players suspected of hacking
-  #This speeds up detection and increases accuracy
-  #Some not movements/complex checks don't support this
+  #Notification of "punishmentCommand" execution
+  #It's seen by console and players with "lightanticheat.alerts" permission
+  #Leave it empty to disable
+  punishmentNotice: "&f(LAC) &c%username%&f tried to use &c%check%&f hack!"
+
+detection:
+  #It cancels actions of players when they start hacking
+  #It increases accuracy but can warn players about detection
   cancelHacking: true
+  #Some move checks start if player is on ground/in air for 1 second
+  #It improves accuracy but doesn't detect frequent jumps/small flights
+  #Enabling it reduce this limit
+  highSpeedMode: false
 
 checks:
   #Checks flight hacks (Flight, PacketFlight, Jetpack, AirJump, etc)
   Flight: true
-  #Checks  flight on boats (BoatFly)
+  #Checks flight on boats (BoatFly)
   BoatFly: true
   #Checks impossible elytra flight speeds (ElytraFly)
   ElytraFly: true
-  #Checks impossible speeds on ground (Speed, VanillaSpeed, GroundSpeed, etc)
+  #Checks impossible speeds on ground (Speed, GroundSpeed, Step, etc)
   Speed: true
-  #Checks the speed of sending packets (Timer)
-  Timer: true
-  #Checks for impossible movement (some HighJump, NoFall, etc)
+  #Checks for impossible movement (NoFall, HighJump, etc)
   IrregularMovement: true
-  #Checks for fall without damage (NoFall)
-  NoFall: true
   #Checks walking on liquids (Jesus)
-  Jesus: true
+  FluidWalk: true
   #Checks the climbing speed (FastClimb)
   FastClimb: true
-  #Checks hitting on entities (MultiAura, some KillAura)
-  MultiAura: true
-  #Checks the distance to hit on entities (Reach)
+  #Checks the speed of sending packets (Timer)
+  MorePackets: true
+  #Checks sending bad packets (NoFall, Speed, etc)
+  GroundSpoof: true
+  #Checks hitting on entities (KillAura, MultiAura, etc)
+  KillAura: true
+  #Checks the distance to hit entities (Reach)
   Reach: true
   #Checks the critical hit conditions (Criticals)
   Criticals: true
-  #Checks for impossible block placements (AirPlace, AutoBuild, EasyPlaceMode, etc)
+  #Checks for impossible block placements (AirPlace, AutoBuild, etc)
   IrregularPlacement: true
-  #Checks the impossible of breaking blocks (Nuker)
+  #Checks for impossible block breaking (Nuker)
   Nuker: true
+
+logs:
+  #Enable or disable logs
+  enable: true
+  #Name of the logs file
+  file: logs.txt
+  #Log entry format
+  #Possible components: time, username, uuid, ip, check, ping, tps
+  #Example: "format: username,check,ping,tps,time"
+  format: time,username,uuid,ip,check,ping,tps
+
+debugMode:
+  #Sends notice about each flag to console and players with "lightanticheat.alerts" permission
+  #In fact this plugin needs lot of flags to block player (e.g. 40+ flight flags per minute)
+  #Players with poor connection can get stuck air in air/move quickly after closing elytra
+  #This can be the cause of single false flags, but this won't lead to blocking
+  enable: false
 
 messages:
   unknownCommand: "&bUpdate values from 'config.yml': /lac reload"

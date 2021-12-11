@@ -90,14 +90,14 @@ inv-sorting-enabled-by-default: false
 allow-commands: true
 
 # You can prevent players from using the GUI. When set to "false", /sort behaves like /sort toggle
-allow-gui: true
+allow-gui: false
 
 # when set to true, players with sorting DISABLED will be
 # shown a message on how to enable automatic chest sorting
 # when they use a chest for the first time.
 # consider setting this to true when you disable sorting by default.
 # see also -> message-when-using-chest
-show-message-when-using-chest: true
+show-message-when-using-chest: false
 
 # when set to true, players with sorting ENABLED will be
 # shown a message on how to disable automatic chest sorting
@@ -108,7 +108,7 @@ show-message-when-using-chest-and-sorting-is-enabled: false
 
 # when set to true, the messages are shown again when a player
 # logs out and back in and then uses a chest again.
-show-message-again-after-logout: true
+show-message-again-after-logout: false
 
 # to sort by category, we need category files. ChestSort comes
 # with a number of pregenerated category files, named
@@ -136,7 +136,7 @@ auto-generate-category-files: true
 sort-time: close
 
 # when set to true, show some verbose information on startup
-verbose: true
+verbose: false
 
 ###########################
 ##### Default Hotkeys #####
@@ -160,11 +160,11 @@ allow-sorting-hotkeys: true
 #
 sorting-hotkeys:
   # Use middle click (mousewheel) on ANY inventory slot as hotkey. Permission: chestsort.hotkey.middleclick
-  middle-click: true 
+  middle-click: true
   # Use shift + left-click on any EMPTY inventory slot as hotkey. Permission: chestsort.hotkey.shiftclick
   shift-click: true
   # Use double left-click on any EMPTY inventory slot as hotkey. Permission: chestsort.hotkey.doubleclick
-  double-click: true 
+  double-click: true
   # Use shift + right-click on any EMPTY inventory slot as hotkey. Permission: chestsort.hotkey.shiftrightclick
   shift-right-click: true
 
@@ -184,7 +184,7 @@ left-click-to-sort-enabled-by-default: false
 # using left-click or right-click outside of a chest's inventory.
 # A single click will only affect matching items (items that are already present in the other inventory)
 # and a double click will try to store/take all items.
-allow-additional-hotkeys: true
+allow-additional-hotkeys: false
 
 # You can define which additional hotkeys are enabled by default.
 # Players can also enable/disable these shortcuts individually via /chestsort hotkeys
@@ -212,7 +212,7 @@ check-for-updates: true
 
 # When you set "check-for-updates" to true, you can define the amount
 # of hours inbetween each update check.
-check-interval: 4
+check-interval: 24
 
 #########################
 #### Disabled Worlds ####
@@ -243,19 +243,19 @@ disabled-worlds:
 ##### CrackShot ##### -> https://www.spigotmc.org/resources/crackshot-guns.48301/
 # When CrackShot is installed, all CrackShot weapons will be
 # grouped together and sorted by their name
-hook-crackshot: true
+hook-crackshot: false
 
 # You can define a custom name that will be used as prefix
 # for all CrackShot weapon names.
 # E.g. when you set this to "crackshot_weapon", an AK-47
 # will be called "crackshot_weapon_AK-47"
-hook-crackshot-prefix: "crackshot_weapon"
+hook-crackshot-prefix: crackshot_weapon
 
 ##### InventoryPages ##### -> https://www.spigotmc.org/resources/inventorypages.32432/
 # When InventoryPages is installed, ChestSort will not sort
 # the "Next Page" and "Prev Page" buttons. You should not
 # disable this behaviour unless you know what you are doing!
-hook-inventorypages: true
+hook-inventorypages: false
 
 ##### Minepacks ##### -> https://www.spigotmc.org/resources/minepacks-backpack-plugin-mc-1-7-1-15.19286/
 # When Minepacks version 2.3.8+ is installed, ChestSort can detect your
@@ -265,24 +265,24 @@ hook-minepacks: true
 ##### PlayerVaults and similar plugins #####
 # When PlayerVaults or similar plugins are installed, ChestSort can sort your
 # player vaults just like regular chests.
-hook-playervaults: true
+hook-playervaults: false
 
 ##### EnderContainers ##### -> https://www.spigotmc.org/resources/endercontainers.4750/
 # When EnderContainers version 2.2.1+ is installed, ChestSort can detect your
 # enderchests and sort them like regular chests.
-hook-endercontainers: true
+hook-endercontainers: false
 
 ##### CrateReloaded #####
 # Prevents the player from using hotkeys on a crate
-hook-cratereloaded: true
+hook-cratereloaded: false
 
 ##### GoldenCrates #####
 # Prevents the player from using hotkeys on a crate
-hook-goldencrates: true
+hook-goldencrates: false
 
 ##### HeadDatabase #####
 # Prevents the player from using hotkeys on the HeadDatabase GUI
-hook-headdatabase: true
+hook-headdatabase: false
 
 ##### Slimefun #####
 # Some versions of Slimefun fail to prevent putting the backpack into itself
@@ -294,7 +294,7 @@ dont-move-slimefun-backpacks: false
 # When AdvancedChests is installed, ChestSort will not sort
 # the buttons from the bottom row. You should not
 # disable this behaviour unless you know what you are doing!
-hook-advancedchests: true
+hook-advancedchests: false
 
 ##### Other backpack plugins #####
 # ChestSort is able to detect backpacks from most backpack
@@ -362,7 +362,7 @@ mute-protection-plugins: false
 #   sort by category, but keep exactly the same order as defined in each category file, then sort any undefined items by name and color
 #      '{category},{keepCategoryOrder},{name},{color}
 #
-sorting-method: '{category},{itemsFirst},{name},{color},{customName}'
+sorting-method: "{category},{itemsFirst},{name},{color},{customName}"
 
 #########################
 ##### Localization ######
@@ -784,5 +784,5 @@ debug2: false
 log: false
 
 # Do not change the following lines!
-config-version: 202111012005
-plugin-version: 12.0.4
+config-version: 202112092055
+plugin-version: 12.1.3

@@ -104,8 +104,8 @@ GriefPrevention:
   LimitTreeGrowth: false
   PistonMovement: EVERYWHERE
   PistonExplosionSound: true
-  FireSpreads: true
-  FireDestroys: true
+  FireSpreads: false
+  FireDestroys: false
   AdminsGetWhispers: true
   AdminsGetSignNotifications: true
   SmartBan: true

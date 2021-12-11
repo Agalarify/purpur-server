@@ -4,7 +4,7 @@
 # https://www.spigotmc.org/members/429752/#resources
 
 # Use permission "hivechecker.use" to check or allow everyone?
-Use Permissions: true
+Use Permissions: false
 
 # Should we open a GUI for the player instead of a message.
 Use GUI: true
