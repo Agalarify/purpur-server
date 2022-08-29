@@ -1,0 +1,8 @@
+# Log file
+*.log
+usercache.json
+world/
+world_nether/
+world_the_end/
+logs/
+cache/
